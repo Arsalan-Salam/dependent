@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: First step in ubuntu job
-      - run: date
+        run: date
       - run: pwd
 
   job-on-windows:
